@@ -25,28 +25,29 @@ h3 {
 }
 
 .section { 
-    margin: 10px; 
     color: rgb(155, 151, 151);
-    padding-top: 100px;
-    padding-left: 100px ;
+    width: 1170px;
+    margin: 35px; 
+    padding: auto 14px 14px 13px;
 
 }
 .underhead {
     background-color: rgb(51, 57, 68);
     height: 450px;
     padding-top: 200px ;
-    
+}
+.container {
+    text-align: center;
 }
 h1 {
     padding: 10px;
     font-size: 45px;
     font-family:  sans-serif;
-    text-align: center;
 }
 .title {
     color: white;;
     text-transform: uppercase;
-    text-align: center;
+    
 }
 button {
   margin: -100px;
@@ -73,11 +74,7 @@ img:hover {
     transform: scale(1.2);
 }
 .web {
-    position: absolute;
     color: rgb(51, 189, 235);
-    font-size: 25px;
-    top: 3px;
-    left: 150px;
 }
 a {
     margin: 10px;
@@ -106,15 +103,14 @@ nav {
     color: gray;
 }
 .picture-container {
-    display: flex;
-}
-.picture {
-    margin: 100px; 
-    padding-left: 300px ;
+    width: 1240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 .headpicture {
-    display: flex;
-    padding-left: 430px;
+    text-align: center;
+    font-size: 42px;
 }
 .foter {
    
@@ -123,7 +119,7 @@ nav {
     border-radius: 50px;
 }
 .foterweb {
-    margin-left: -45px;
+    margin-left: 149px;
     color: aliceblue;
 }
 .fotercont {
@@ -143,9 +139,6 @@ nav {
     margin-left: 140px;
     font-size: 20px;
     }
-.button {
-    text-align: center;
-}
 .img {
     width: 270px;
     height: 260px;
@@ -154,6 +147,12 @@ nav {
 .team-img {
     background-color:#F5F4FA;
     border-radius: 50px;
+    text-align: center;
+    width: 1890px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
 }
 .heading {
     padding-top: 100px;  
